@@ -3,27 +3,27 @@ pipeline{
     stages {
         stage ("stage 1"){
             steps {
-                echo "this stage 1"
+                echo "this stage first"
             }
         }
         stage ("stage 2"){
             steps {
-                echo "this stage 2"
+                echo "this stage second"
             }
         }
         stage ("stage 3"){
             steps {
-                echo "this stage 3"
+                echo "this stage third"
             }
         }
         stage ("stage 4"){
             steps {
-                echo "this stage 4"
+                echo "this stage fourth"
             }
         }
         stage ("stage 5"){
             steps {
-                echo "this stage 5"
+                echo "this stage fith"
             }
         }
     }
